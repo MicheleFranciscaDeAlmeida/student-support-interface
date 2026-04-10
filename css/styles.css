@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Inputs e textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #4285F4;
+    /* azul estilo Google */
+    color: white;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* Hover do botão */
+button:hover {
+    background-color: #3367d6;
+}
+
+/* Feedback (mensagem) */
+#feedback {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Esconder elemento */
+.hidden {
+    display: none;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+}
