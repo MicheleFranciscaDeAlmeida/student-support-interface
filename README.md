@@ -4,6 +4,10 @@
 
 This project is a front-end application designed to simulate a student support system. It focuses on creating a user-friendly interface where users can submit requests and receive immediate feedback.
 
+## Preview
+
+![Project Screenshot](./assets/screenshot.png)
+
 ## Problem
 
 Many support systems are complex and difficult to use, leading to poor user experience and inefficiency.
